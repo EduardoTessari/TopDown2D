@@ -64,9 +64,12 @@
     <Compile Include="Assets\Scripts\Others\Knockback.cs" />
     <Compile Include="Assets\Scripts\S_Player\Player Controls.cs" />
     <Compile Include="Assets\Scripts\S_Player\DamageSource.cs" />
+    <Compile Include="Assets\Scripts\Others\TransparentDetection.cs" />
     <Compile Include="Assets\Scripts\S_Player\PlayerControler.cs" />
+    <Compile Include="Assets\Scripts\Others\Parallax.cs" />
     <Compile Include="Assets\Scripts\Others\FlashHit.cs" />
     <Compile Include="Assets\Scripts\S_Enemies\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\Others\Destructable.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

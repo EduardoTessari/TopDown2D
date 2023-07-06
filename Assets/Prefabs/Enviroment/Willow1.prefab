@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1716870249967714926}
   - component: {fileID: 1716870249967714925}
   - component: {fileID: 1716870249967714924}
+  - component: {fileID: 7699390197015709758}
+  - component: {fileID: 2708361835174197494}
   m_Layer: 0
   m_Name: Willow1
   m_TagString: Untagged
@@ -101,3 +103,33 @@ CapsuleCollider2D:
   m_Offset: {x: 0.1306094, y: -0.11581567}
   m_Size: {x: 1.4370832, y: 1.3612596}
   m_Direction: 1
+--- !u!58 &7699390197015709758
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716870249967714923}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.11616707, y: 2.0848305}
+  serializedVersion: 2
+  m_Radius: 1.402436
+--- !u!114 &2708361835174197494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716870249967714923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17539b0f05ef27144bbf55588d529afe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transparencyAmount: 0.8
+  _fadeTime: 0.04

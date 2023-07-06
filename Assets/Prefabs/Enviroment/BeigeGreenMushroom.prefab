@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5988082767659262518}
   - component: {fileID: 5988082767659262517}
   - component: {fileID: 3795601872209078314}
+  - component: {fileID: 5529955562093434767}
   m_Layer: 0
   m_Name: BeigeGreenMushroom
   m_TagString: Untagged
@@ -101,3 +102,16 @@ CapsuleCollider2D:
   m_Offset: {x: -0.011854887, y: -0.06717837}
   m_Size: {x: 0.6601567, y: 0.66015697}
   m_Direction: 0
+--- !u!114 &5529955562093434767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5988082767659262516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4366e3eba447ce4bb55273b960bec91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _destroyVFX: {fileID: 5264800406628832956, guid: 31f389ffbe26f6a4ebf8b782eac9be03, type: 3}
