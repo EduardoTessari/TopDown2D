@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControler : MonoBehaviour
+// This line says that this script is associated to the sigleton one, in other word, singleton is the father.
+public class PlayerControler : Singleton<PlayerControler>
 {
     public bool LookingRight {  get { return _lookingRight; } }
-    public static PlayerControler Instance;
 
     [SerializeField] private float _moveSpeed;
     [SerializeField] private float _dashSpeed = 4f;
@@ -21,9 +21,11 @@ public class PlayerControler : MonoBehaviour
     private bool _lookingRight;
     private bool _isDashing = false;
 
-    private void Awake()
+    protected override void Awake()
     {
-        Instance = this;
+        //fist call the Awake function on the Singleton Class
+        base.Awake();
+
         _playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();

@@ -59,7 +59,9 @@
     <Compile Include="Assets\Scripts\S_Enemies\EnemyPath.cs" />
     <Compile Include="Assets\Scripts\S_Player\SelfDestroy.cs" />
     <Compile Include="Assets\Scripts\S_Player\ActiveWeapon.cs" />
+    <Compile Include="Assets\Scripts\Scene Management\ExitArea.cs" />
     <Compile Include="Assets\Scripts\S_Enemies\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\Scene Management\Singleton.cs" />
     <Compile Include="Assets\Scripts\S_Player\Sword.cs" />
     <Compile Include="Assets\Scripts\Others\Knockback.cs" />
     <Compile Include="Assets\Scripts\S_Player\Player Controls.cs" />
@@ -70,6 +72,8 @@
     <Compile Include="Assets\Scripts\Others\Destructable.cs" />
     <Compile Include="Assets\Scripts\Others\FlashHit.cs" />
     <Compile Include="Assets\Scripts\S_Enemies\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\Scene Management\AreaEntrance.cs" />
+    <Compile Include="Assets\Scripts\Scene Management\SceneManagement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
