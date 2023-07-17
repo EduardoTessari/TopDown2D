@@ -12,9 +12,18 @@ public class ExitArea : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<PlayerControler>())
         {
-            SceneManager.LoadScene(_sceneToLoad);
+            UI_Fade.Instance.FadeToBlack();
+            StartCoroutine(LoadSceneRoutine());
             SceneManagement.Instance.SetTransitionName(_sceneTransitionName);
+
+            
         }
+    }
+
+    private IEnumerator LoadSceneRoutine()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(_sceneToLoad);
     }
 
 }

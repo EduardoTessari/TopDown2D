@@ -11,7 +11,18 @@ public class AreaEntrance : MonoBehaviour
     {
         if(_sceneTransitionName == SceneManagement.Instance.SceneTransitionName)
         {
+            StartCoroutine(LoadSceneRoutine());
             PlayerControler.Instance.transform.position = this.transform.position;
+            CameraController.Instance.SetPlayerCameraFollow();
+
         }
     }
+
+    private IEnumerator LoadSceneRoutine()
+    {
+        yield return new WaitForSeconds(0.3f);
+        UI_Fade.Instance.FadeToClear();
+    }
+
+
 }

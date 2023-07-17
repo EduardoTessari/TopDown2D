@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\S_Enemies\EnemyPath.cs" />
+    <Compile Include="Assets\Scripts\Scene Management\SceneManagement.cs" />
+    <Compile Include="Assets\Scripts\Scene Management\AreaEntrance.cs" />
     <Compile Include="Assets\Scripts\S_Player\SelfDestroy.cs" />
     <Compile Include="Assets\Scripts\S_Player\ActiveWeapon.cs" />
     <Compile Include="Assets\Scripts\Scene Management\ExitArea.cs" />
@@ -72,8 +74,9 @@
     <Compile Include="Assets\Scripts\Others\Destructable.cs" />
     <Compile Include="Assets\Scripts\Others\FlashHit.cs" />
     <Compile Include="Assets\Scripts\S_Enemies\EnemyHealth.cs" />
-    <Compile Include="Assets\Scripts\Scene Management\AreaEntrance.cs" />
-    <Compile Include="Assets\Scripts\Scene Management\SceneManagement.cs" />
+    <Compile Include="Assets\Scripts\Scene Management\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Scene Management\BaseSingleton.cs" />
+    <Compile Include="Assets\Scripts\Scene Management\UI_Fade.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

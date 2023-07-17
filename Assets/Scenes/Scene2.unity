@@ -246,6 +246,103 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffc9479f4d4eb514eb52c53443f90d3f, type: 3}
+--- !u!1001 &203270841
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 25286677, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 25286677, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 25286678, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_Flip.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756068, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_Name
+      value: AreaExit
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756069, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: _sceneToLoad
+      value: Scene1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756069, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: _sceneTransitionName
+      value: East_Entrance
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756070, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_Size.x
+      value: 0.82678795
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756070, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.3819208
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756071, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756071, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756071, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756071, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756071, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756071, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756071, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756071, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756071, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756071, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212731584831756071, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6016920239504489676, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6016920239504489676, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7798798214417624218, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
+      propertyPath: _sceneTransitionName
+      value: West_Entrance
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3df1801dea693a54a9a5f538a9655a98, type: 3}
 --- !u!1 &362385689
 GameObject:
   m_ObjectHideFlags: 0
@@ -18409,7 +18506,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -24758,21 +24855,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ff7569f682cd0a42966e63f84092694, type: 3}
---- !u!4 &1786044000793043366
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6296738317609884287}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.36, y: -0.17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5312821105887431245}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2542059977204797704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24834,93 +24916,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 963be3d612975e145bf850f0ab3b194b, type: 3}
---- !u!114 &2842841454305964528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6296738317609884287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d46e1e8f882e1b46ad61aba14e1b3b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _sceneTransitionName: West_Entrance
---- !u!61 &5312821105887431244
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5312821105887431246}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.57970047, y: -0.19999003}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.2223473, y: 2.9998975}
-  m_EdgeRadius: 0
---- !u!4 &5312821105887431245
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5312821105887431246}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.92, y: -2.89, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1786044000793043366}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5312821105887431246
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5312821105887431245}
-  - component: {fileID: 5312821105887431244}
-  - component: {fileID: 5312821105887431247}
-  m_Layer: 0
-  m_Name: AreaExit
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &5312821105887431247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5312821105887431246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53baa4250bfddad4d9d7b1555647bb5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _sceneToLoad: Scene1
-  _sceneTransitionName: East_Entrance
 --- !u!1001 &5988082768039876272
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24978,20 +24973,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffc9479f4d4eb514eb52c53443f90d3f, type: 3}
---- !u!1 &6296738317609884287
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1786044000793043366}
-  - component: {fileID: 2842841454305964528}
-  m_Layer: 0
-  m_Name: AreaEntrance
-  m_TagString: Untagged
-  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
